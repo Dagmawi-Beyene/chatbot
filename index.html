@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Buddy</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* white background color */
+        }
+
+        .header {
+            position: relative;
+            background-color: #ffffff; /* white background color */
+            background-image: url('https://firebasestorage.googleapis.com/v0/b/gpt3-app.appspot.com/o/TravelBuddy%20visuals%20with%20no%20text%20but%20only%20visuals%20for%20banner%20or%20website.png?alt=media&token=23d656b4-15cf-4f46-a29d-7ede5329bace');
+            height: 100vh;
+            max-height: 1024px; /* enforce a maximum height */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain; /* keep the complete image visible */
+        }
+    
+    </style>
+</head>
+<body>
+
+<section class="header">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+    intent="WELCOME"
+    chat-title="TravelBuddy"
+    agent-id="4f8058b2-ac66-451c-b8a4-1ade0512630f"
+    language-code="en"
+  ></df-messenger>
+</section>
+</body>
+</html>
